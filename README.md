@@ -455,7 +455,7 @@ const int RIGHT_BACK    = 85;   // 右轮后退脉冲
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) — OLED 驱动库
 - [WebSocketsClient](https://github.com/Links2004/arduinoWebSockets) — WebSocket 库
 - [ArduinoJson](https://arduinojson.org/) — JSON 解析库
-- [江协科技](https://jiangxiekeji.com)原生适配本项目蓝牙协议
+- [江协科技](https://jiangxiekeji.com) — 原生适配本项目蓝牙协议
 ---
 
 <div align="center">
