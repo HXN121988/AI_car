@@ -1,8 +1,8 @@
 #include <ESP32Servo.h>
 
 Servo testServo;
-// 测试右前舵机填 14，右后舵机填 13，左前填 2，左后填 3
-const int testPin = 3; 
+// 测试左后舵机填 14，左前舵机填 13，右后填 2，右前填 3
+const int testPin = 14; 
 
 void setup() {
   Serial.begin(115200);
