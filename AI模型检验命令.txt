@@ -1,0 +1,14 @@
+
+语音模型检验命令：
+curl -i -N -H "Connection: Upgrade" -H "Upgrade: websocket" -H "Host: openspeech.bytedance.com" -H "X-Api-Key: 你的语音模型API Key" -H "X-Api-Resource-Id: 语音模型资源信息ID" -H "X-Api-Request-Id: test-0001" -H "X-Api-Connect-Id: test-0001" -H "X-Api-Sequence: -1" -H "Sec-WebSocket-Version: 13" -H "Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==" https://openspeech.bytedance.com/api/v3/sauc/bigmodel_nostream
+
+推理模型检验命令
+curl -i -X POST -H "Content-Type: application/json" -H "Authorization: Bearer 你的推理模型API Key" -d "{\"model\":\"你的模型接入点ID\",\"messages\":[{\"role\":\"user\",\"content\":\"你好\"}],\"max_tokens\":10}" https://ark.cn-beijing.volces.com/api/v3/chat/completions
+
+
+
+在终端中输入以上命令可检验模型是否建立成功
+
+
+
+
